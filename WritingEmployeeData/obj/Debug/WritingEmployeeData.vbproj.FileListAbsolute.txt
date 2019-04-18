@@ -1,0 +1,12 @@
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\bin\Debug\WritingEmployeeData.exe.config
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\bin\Debug\WritingEmployeeData.exe
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\bin\Debug\WritingEmployeeData.pdb
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\bin\Debug\WritingEmployeeData.xml
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.vbprojResolveAssemblyReference.cache
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.Resources.resources
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.vbproj.GenerateResource.cache
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.vbproj.CoreCompileInputs.cache
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.exe
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.xml
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.pdb
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.WriteEmployeeData.resources

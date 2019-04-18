@@ -55,5 +55,7 @@ Public Class WriteEmployeeData
         employeeFile.WriteLine(txtEmail.Text)
 
         employeeFile.Close()
+        MessageBox.Show("The record has been saved.")
+
     End Sub
 End Class

@@ -13,7 +13,7 @@ Public Class WriteEmployeeData
                 ' Display a file name in the filename box
                 .FileName = "employee.txt"
                 ' Display a title for the OPEN dialog window
-                .Title = "Select File or Directory for File"
+                .Title = "Select File or Create New File"
                 ' Save the user response - OPEN or CANCEL
                 ResponseSaveDialogResult = .ShowDialog
             End With
@@ -23,7 +23,7 @@ Public Class WriteEmployeeData
                 employeeFile.Close()
             End If
         Catch ex As Exception
-
+            MessageBox.Show("File cannot be create")
         End Try
     End Sub
 
@@ -32,6 +32,7 @@ Public Class WriteEmployeeData
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        ' Clear the foem
         txtFirstName.Text = String.Empty
         txtMiddleName.Text = String.Empty
         txtLastName.Text = String.Empty
@@ -40,6 +41,9 @@ Public Class WriteEmployeeData
         txtTelephone.Text = String.Empty
         txtExtension.Text = String.Empty
         txtEmail.Text = String.Empty
+
+        ' Reset the focus
+        txtFirstName.Focus()
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click

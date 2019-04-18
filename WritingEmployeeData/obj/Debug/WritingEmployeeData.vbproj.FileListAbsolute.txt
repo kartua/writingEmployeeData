@@ -9,4 +9,4 @@ C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmp
 C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.exe
 C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.xml
 C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.pdb
-C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.WriteEmployeeData.resources
+C:\Users\Kartua\Documents\KartuaDocument\VBcourse\WritingEmployeeData\WritingEmployeeData\obj\Debug\WritingEmployeeData.WriteDataForm.resources

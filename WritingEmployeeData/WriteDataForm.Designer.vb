@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class WriteEmployeeData
+Partial Class WriteDataForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -40,7 +40,7 @@ Partial Class WriteEmployeeData
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnNext = New System.Windows.Forms.Button()
+        Me.btnSave = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.GroupBox1.SuspendLayout()
@@ -222,15 +222,15 @@ Partial Class WriteEmployeeData
         Me.btnClear.Text = "C&lear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
-        'btnNext
+        'btnSave
         '
-        Me.btnNext.Location = New System.Drawing.Point(30, 363)
-        Me.btnNext.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(107, 49)
-        Me.btnNext.TabIndex = 9
-        Me.btnNext.Text = "&Save Record"
-        Me.btnNext.UseVisualStyleBackColor = True
+        Me.btnSave.Location = New System.Drawing.Point(30, 363)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(107, 49)
+        Me.btnSave.TabIndex = 9
+        Me.btnSave.Text = "&Save Record"
+        Me.btnSave.UseVisualStyleBackColor = True
         '
         'btnExit
         '
@@ -249,7 +249,7 @@ Partial Class WriteEmployeeData
         Me.ClientSize = New System.Drawing.Size(424, 450)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.btnNext)
+        Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnExit)
         Me.Name = "WriteEmployeeData"
         Me.Text = "Employee Data"
@@ -269,7 +269,7 @@ Partial Class WriteEmployeeData
     Friend WithEvents Label2 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents btnClear As Button
-    Friend WithEvents btnNext As Button
+    Friend WithEvents btnSave As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents cboDepartment As ComboBox
     Friend WithEvents txtEmail As TextBox

@@ -72,11 +72,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WriteEmployeeData.vb">
+    <Compile Include="WriteDataForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WriteEmployeeData.Designer.vb">
-      <DependentUpon>WriteEmployeeData.vb</DependentUpon>
+    <Compile Include="WriteDataForm.Designer.vb">
+      <DependentUpon>WriteDataForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,8 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="WriteEmployeeData.resx">
-      <DependentUpon>WriteEmployeeData.vb</DependentUpon>
+    <EmbeddedResource Include="WriteDataForm.resx">
+      <DependentUpon>WriteDataForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

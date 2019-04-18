@@ -1,11 +1,11 @@
 ﻿Imports System.IO
 
-Public Class WriteEmployeeData
+Public Class WriteDataForm
     Dim strFilePath As String
     Dim ResponseSaveDialogResult As DialogResult
     Dim employeeFile As StreamWriter
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub WriteDataForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             With SaveFileDialog1
                 ' Display the current directory in the window
@@ -46,7 +46,7 @@ Public Class WriteEmployeeData
         txtFirstName.Focus()
     End Sub
 
-    Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
 
         employeeFile = File.AppendText(strFilePath)
         employeeFile.WriteLine(txtFirstName.Text)
